@@ -226,6 +226,7 @@ iface ra0 inet dhcp       # 주석을 해제한다.
 4) BeagleBone Black을 재시작한다.
 
 > 주의1: WiFi 동글을 이용할 경우 전원을 많이 사용하므로, 반드시 DC 5V 전원 어댑터를 연결하여 사용해야 한다.
+
 > 주의2: BeagleBone 재시작 후, WiFi 인터페이스(wlan0 또는 ra0)가 나중에 인식된 경우에는 게이트웨이를 재시작해야 WiFi 인터페이스를 인식한다.
 
   ```
