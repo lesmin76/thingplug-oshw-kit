@@ -172,7 +172,7 @@ exit 0
 
   - http://beagleboneblacksurya.blogspot.kr/2014/10/connecting-to-wireless-module-tp-link.html
 
-> 주의: WiFi 동글을 BeagleBone Black에 연결한 수 반드시 재시작해야 한다.
+> 주의: WiFi 동글을 BeagleBone Black에 연결한 후 반드시 재시작해야 한다.
 
 - WiFi 동글 설정을 위해서는 **터미널**에서 아래의 단계를 수행한다.
 
@@ -225,7 +225,14 @@ iface ra0 inet dhcp       # 주석을 해제한다.
 
 4) BeagleBone Black을 재시작한다.
 
-> 주의: WiFi 동글을 이용할 경우 전원을 많이 사용하므로, 반드시 DC 5V 전원 어댑터를 연결하여 사용해야 한다.
+> 주의1: WiFi 동글을 이용할 경우 전원을 많이 사용하므로, 반드시 DC 5V 전원 어댑터를 연결하여 사용해야 한다.
+> 주의2: BeagleBone 재시작 후, WiFi 인터페이스(wlan0 또는 ra0)가 나중에 인식된 경우에는 게이트웨이를 재시작해야 WiFi 인터페이스를 인식한다.
+
+  ```
+  @PC:$ ssh root@192.168.7.2
+  @BBB:$ cd /usr/local/tp
+  @BBB:$ ./tp.sh restart
+  ```
 
 ----------------------------------
 ### 문제 해결 방법
