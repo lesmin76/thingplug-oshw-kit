@@ -11,6 +11,13 @@ both SK TELECOM. LTD and Daliworks, Inc. is prohibited.
 
 ### ThingPlug 연동가이드(Raspberry Pi)
 
+#### 0. 디바이스 구매
+
+ 1) [Raspberry Pi 2 Model B 구매 바로가기](http://www.icbanq.com/P005716580/)
+ 
+ 2) [Grove Pi+ Starter Kit for Raspberry Pi 구매 바로가기](http://www.icbanq.com/P005700239/)
+
+
 #### 1. 환경 설정
 
 
@@ -90,7 +97,7 @@ v0.10.16
 3) 데비안 패키지를 설치한다. (반드시 root 계정을 이용해야 한다.)
 
 ```bash
-@Pi2:$ dpkg -i tp_sktiot_raspberryPi2.deb
+@Pi2:$ dpkg -i tp_sktiot_0.5.3_armhf_RaspberryPi.deb
 ```
 
 4) Raspberry Pi를 재시작한다.
