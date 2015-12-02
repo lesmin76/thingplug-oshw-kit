@@ -6,10 +6,16 @@ Reproduction and/or distribution without the written consent of
 both SK TELECOM. LTD and Daliworks, Inc. is prohibited.
 ```
 
-**Version: 0.1.0**
+**Version: 0.5.0**
 
 
 ### ThingPlug 연동가이드(Edison Arduino Expansion Board)
+
+#### 0. 디바이스 구매
+
+ 1) [Intel Edison Kit for Arduino 구매 바로가기](http://www.icbanq.com/P005632309/)
+ 
+ 2) [Grove - Starter Kit for Arduino 구매 바로가기](http://www.icbanq.com/P005710113/)
 
 #### 1. 환경 설정
 
