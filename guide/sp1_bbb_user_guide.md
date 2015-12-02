@@ -6,15 +6,19 @@ Reproduction and/or distribution without the written consent of
 both SK TELECOM. LTD and Daliworks, Inc. is prohibited.
 ```
 
-**Version: 0.9.5**
+**Version: 0.9.6**
 
 
 ### ThingPlug 연동가이드(BeagleBone Black)
 
+#### 0. 디바이스 구매
+
+ 1) [IGoT - SensorCape 구매 바로가기](http://www.icbanq.com/P005682504)
+
 #### 1. 환경 설정
 
 
-1) 문서 하단의 IGoT - SensorCape 설명을 참조하여 Beaglebone Black과 IGoT - SensorCape를 연결하고, BeagleBone Black에 5V 전원 어댑터를 연결한 후, 아래 URL을 참조하여 BeagleBone Black과 사용자의 PC를 USB 케이블로 연결하고(Step 1), 드라이버를 설치한다.(Step 2)
+1) 문서 하단의 [IGoT - SensorCape 설명](https://github.com/SKT-ThingPlug/thingplug-oshw-kit/blob/master/guide/sp1_bbb_user_guide.md#igot---sensorcape)을 참조하여 Beaglebone Black과 IGoT - SensorCape를 연결하고, BeagleBone Black에 5V 전원 어댑터를 연결한 후, 아래 URL을 참조하여 BeagleBone Black과 사용자의 PC를 USB 케이블로 연결하고(Step 1), 드라이버를 설치한다.(Step 2)
 
    - http://beagleboard.org/getting-started#step1 참조
    - http://beagleboard.org/getting-started#step2 참조
